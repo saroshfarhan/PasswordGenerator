@@ -155,56 +155,6 @@ main{
 }
 
 
-@media only screen and (max-width: 411px) {
-    main{
-        padding: 11rem 2rem 8rem 2rem; 
-        font-family: 'Montserrat', sans-serif;
-    }
-     main > h1{
-         font-size: 2rem;
-         margin: 0;
-     }
-    
-    .green-text{
-        color: #00e038 ;
-    }
-    
-    .tagline{
-        margin-top: 2rem;
-    }
-    
-    .interactive-place{
-        display: flex;
-        flex: 1;
-        padding: 1.1rem;
-        margin: 2rem 0;
-        background-color: #2b2b2b;
-        border-radius: .8rem;
-        border: 2px solid #016312;
-        width: 70vw;
-        justify-content: space-between;
-    }
-    
-    .password{
-        font-size: .5rem;
-    }
-    
-    .pwd-generate{
-        background-color: #016312;
-        border: 2px solid black;
-        border-radius: .3rem;
-        width: 10rem;
-        font-size: .5rem;
-        color: #ffffff;
-    }
-    
-    .pwd-generate:hover{
-        cursor: pointer;
-        background-color: #11a135;
-        color: #2b2b2b;
-    }
-}
-
 
 @media only screen and (max-width: 428px) {
     main{
@@ -226,7 +176,7 @@ main{
     
     .interactive-place{
         display: flex;
-        flex: 1;
+        flex-direction: column;
         padding: 1.1rem;
         margin: 2rem 0;
         background-color: #2b2b2b;
@@ -234,19 +184,23 @@ main{
         border: 2px solid #016312;
         width: 70vw;
         justify-content: space-between;
+        align-items: center;
     }
     
     .password{
-        font-size: .5rem;
+        margin-top: 6.8px;
+        font-size: 1.3rem;
+        text-align: center;
     }
     
     .pwd-generate{
         background-color: #016312;
         border: 2px solid black;
         border-radius: .3rem;
-        width: 10rem;
-        font-size: .5rem;
+        font-size: 1.3rem;
         color: #ffffff;
+        width: auto;
+        padding: 1rem 2rem;
     }
     
     .pwd-generate:hover{
@@ -255,3 +209,114 @@ main{
         color: #2b2b2b;
     }
 }
+
+
+@media only screen and (max-width: 411px) {
+    main{
+        padding: 11rem 2rem 8rem 2rem; 
+        font-family: 'Montserrat', sans-serif;
+    }
+     main > h1{
+         font-size: 2rem;
+         margin: 0;
+     }
+    
+    .green-text{
+        color: #00e038 ;
+    }
+    
+    .tagline{
+        margin-top: 2rem;
+    }
+    
+    .interactive-place{
+        display: flex;
+        flex-direction: column;
+        padding: 1.1rem;
+        margin: 2rem 0;
+        background-color: #2b2b2b;
+        border-radius: .8rem;
+        border: 2px solid #016312;
+        width: 70vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .password{
+        margin-top: 6.8px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .pwd-generate{
+        background-color: #016312;
+        border: 2px solid black;
+        border-radius: .3rem;
+        font-size: 1.3rem;
+        color: #ffffff;
+        width: auto;
+        padding: 1rem 2rem;
+    }
+    
+    .pwd-generate:hover{
+        cursor: pointer;
+        background-color: #11a135;
+        color: #2b2b2b;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    main{
+        padding: 11rem 2rem 8rem 2rem; 
+        font-family: 'Montserrat', sans-serif;
+    }
+     main > h1{
+         font-size: 2rem;
+         margin: 0;
+     }
+    
+    .green-text{
+        color: #00e038 ;
+    }
+    
+    .tagline{
+        margin-top: 2rem;
+    }
+    
+    .interactive-place{
+        display: flex;
+        flex-direction: column;
+        padding: 1.1rem;
+        margin: 2rem 0;
+        background-color: #2b2b2b;
+        border-radius: .8rem;
+        border: 2px solid #016312;
+        width: 70vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .password{
+        margin-top: 6.8px;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .pwd-generate{
+        background-color: #016312;
+        border: 2px solid black;
+        border-radius: .3rem;
+        font-size: 1.1rem;
+        color: #ffffff;
+        width: auto;
+        padding: 1rem 2rem;
+    }
+    
+    .pwd-generate:hover{
+        cursor: pointer;
+        background-color: #11a135;
+        color: #2b2b2b;
+    }
+}
+
+
