@@ -1,0 +1,17 @@
+/* colors
+bg #001c2d
+txt #ffffff
+border div #016312
+button #016312 */
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #001c2d;
+}
+
+main{
+    padding: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
