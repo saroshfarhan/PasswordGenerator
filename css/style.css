@@ -4,31 +4,32 @@ txt #ffffff
 border div #016312
 button #016312 */
 
-body{
+body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #001c2d;
     color: #ffffff;
 }
 
-main{
-    padding: 10rem 4rem 8rem 4rem; 
+main {
+    padding: 10rem 4rem 8rem 4rem;
     font-family: 'Montserrat', sans-serif;
 }
- main > h1{
-     font-size: 5rem;
-     margin: 0;
- }
 
-.green-text{
-    color: #00e038 ;
+main>h1 {
+    font-size: 5rem;
+    margin: 0;
 }
 
-.tagline{
+.green-text {
+    color: #00e038;
+}
+
+.tagline {
     margin-top: 2rem;
 }
 
-.interactive-place{
+.interactive-place {
     display: flex;
     padding: 1.5rem;
     margin: 3rem 0;
@@ -39,11 +40,11 @@ main{
     justify-content: space-between;
 }
 
-.password{
+.password {
     font-size: 1.2rem;
 }
 
-.pwd-generate{
+.pwd-generate {
     background-color: #016312;
     border: 2px solid black;
     border-radius: .3rem;
@@ -52,7 +53,7 @@ main{
     color: #ffffff;
 }
 
-.pwd-generate:hover{
+.pwd-generate:hover {
     cursor: pointer;
     background-color: #11a135;
     color: #2b2b2b;
@@ -74,56 +75,85 @@ main{
     left: 50%;
     bottom: 30px;
     font-size: 17px;
-  }
-  
-  #snackbar.show {
+}
+
+#snackbar.show {
     visibility: visible;
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  }
-  
-  @-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;} 
-    to {bottom: 30px; opacity: 1;}
-  }
-  
-  @keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
-  }
-  
-  @-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;} 
-    to {bottom: 0; opacity: 0;}
-  }
-  
-  @keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
-  }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
 
 /* Experimental code */
 
 
 @media only screen and (max-width: 810px) {
-    main{
-        padding: 11rem 2rem 8rem 4rem; 
+    main {
+        padding: 11rem 2rem 8rem 4rem;
         font-family: 'Montserrat', sans-serif;
     }
-     main > h1{
-         font-size: 3rem;
-         margin: 0;
-     }
-    
-    .green-text{
-        color: #00e038 ;
+
+    main>h1 {
+        font-size: 3rem;
+        margin: 0;
     }
-    
-    .tagline{
+
+    .green-text {
+        color: #00e038;
+    }
+
+    .tagline {
         margin-top: 2rem;
     }
-    
-    .interactive-place{
+
+    .interactive-place {
         display: flex;
         padding: 1.1rem;
         margin: 2rem 0;
@@ -133,12 +163,12 @@ main{
         width: 80vw;
         justify-content: space-between;
     }
-    
-    .password{
+
+    .password {
         font-size: 1rem;
     }
-    
-    .pwd-generate{
+
+    .pwd-generate {
         background-color: #016312;
         border: 2px solid black;
         border-radius: .3rem;
@@ -146,8 +176,8 @@ main{
         font-size: 1rem;
         color: #ffffff;
     }
-    
-    .pwd-generate:hover{
+
+    .pwd-generate:hover {
         cursor: pointer;
         background-color: #11a135;
         color: #2b2b2b;
@@ -157,24 +187,25 @@ main{
 
 
 @media only screen and (max-width: 428px) {
-    main{
-        padding: 11rem 2rem 8rem 2rem; 
+    main {
+        padding: 11rem 2rem 8rem 2rem;
         font-family: 'Montserrat', sans-serif;
     }
-     main > h1{
-         font-size: 2rem;
-         margin: 0;
-     }
-    
-    .green-text{
-        color: #00e038 ;
+
+    main>h1 {
+        font-size: 2rem;
+        margin: 0;
     }
-    
-    .tagline{
+
+    .green-text {
+        color: #00e038;
+    }
+
+    .tagline {
         margin-top: 2rem;
     }
-    
-    .interactive-place{
+
+    .interactive-place {
         display: flex;
         flex-direction: column;
         padding: 1.1rem;
@@ -186,14 +217,14 @@ main{
         justify-content: space-between;
         align-items: center;
     }
-    
-    .password{
+
+    .password {
         margin-top: 6.8px;
         font-size: 1.3rem;
         text-align: center;
     }
-    
-    .pwd-generate{
+
+    .pwd-generate {
         background-color: #016312;
         border: 2px solid black;
         border-radius: .3rem;
@@ -202,8 +233,8 @@ main{
         width: auto;
         padding: 1rem 2rem;
     }
-    
-    .pwd-generate:hover{
+
+    .pwd-generate:hover {
         cursor: pointer;
         background-color: #11a135;
         color: #2b2b2b;
@@ -212,24 +243,25 @@ main{
 
 
 @media only screen and (max-width: 411px) {
-    main{
-        padding: 11rem 2rem 8rem 2rem; 
+    main {
+        padding: 11rem 2rem 8rem 2rem;
         font-family: 'Montserrat', sans-serif;
     }
-     main > h1{
-         font-size: 2rem;
-         margin: 0;
-     }
-    
-    .green-text{
-        color: #00e038 ;
+
+    main>h1 {
+        font-size: 2rem;
+        margin: 0;
     }
-    
-    .tagline{
+
+    .green-text {
+        color: #00e038;
+    }
+
+    .tagline {
         margin-top: 2rem;
     }
-    
-    .interactive-place{
+
+    .interactive-place {
         display: flex;
         flex-direction: column;
         padding: 1.1rem;
@@ -241,14 +273,14 @@ main{
         justify-content: space-between;
         align-items: center;
     }
-    
-    .password{
+
+    .password {
         margin-top: 6.8px;
         font-size: 1.3rem;
         text-align: center;
     }
-    
-    .pwd-generate{
+
+    .pwd-generate {
         background-color: #016312;
         border: 2px solid black;
         border-radius: .3rem;
@@ -257,8 +289,8 @@ main{
         width: auto;
         padding: 1rem 2rem;
     }
-    
-    .pwd-generate:hover{
+
+    .pwd-generate:hover {
         cursor: pointer;
         background-color: #11a135;
         color: #2b2b2b;
@@ -266,24 +298,25 @@ main{
 }
 
 @media only screen and (max-width: 375px) {
-    main{
-        padding: 11rem 2rem 8rem 2rem; 
+    main {
+        padding: 11rem 2rem 8rem 2rem;
         font-family: 'Montserrat', sans-serif;
     }
-     main > h1{
-         font-size: 2rem;
-         margin: 0;
-     }
-    
-    .green-text{
-        color: #00e038 ;
+
+    main>h1 {
+        font-size: 2rem;
+        margin: 0;
     }
-    
-    .tagline{
+
+    .green-text {
+        color: #00e038;
+    }
+
+    .tagline {
         margin-top: 2rem;
     }
-    
-    .interactive-place{
+
+    .interactive-place {
         display: flex;
         flex-direction: column;
         padding: 1.1rem;
@@ -295,14 +328,14 @@ main{
         justify-content: space-between;
         align-items: center;
     }
-    
-    .password{
+
+    .password {
         margin-top: 6.8px;
         font-size: 1.3rem;
         text-align: center;
     }
-    
-    .pwd-generate{
+
+    .pwd-generate {
         background-color: #016312;
         border: 2px solid black;
         border-radius: .3rem;
@@ -311,12 +344,10 @@ main{
         width: auto;
         padding: 1rem 2rem;
     }
-    
-    .pwd-generate:hover{
+
+    .pwd-generate:hover {
         cursor: pointer;
         background-color: #11a135;
         color: #2b2b2b;
     }
 }
-
-
