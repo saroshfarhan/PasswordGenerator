@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -17,13 +19,13 @@
 
         <h1 class="green-text">random password</h1>
 
-        <p>Never use an insecure password again, Stay Safel</p>
+        <p class="tagline">Never use an insecure password again, Stay Safel</p>
 
-        <div class="interactive-place">
-            <p class="password" id="pass-gen">Your password will be displayed here</p>
+        <div class="interactive-place tooltip">
+            <p class="password " id="pass-gen" onclick="copyToClipboard(this.id)">Your password will be displayed here</p>
 
-            <button type="submit" class="pwd-generate" id="pwd-gen-btn">⚡️ Generate Password</button>
-
+            <button type="submit" class="pwd-generate" id="pwd-gen-btn" onclick="generatePass()">⚡️ Generate Password</button>
+            <div id="snackbar">Text copied to clip board</div>
         </div>
 
     </main>
